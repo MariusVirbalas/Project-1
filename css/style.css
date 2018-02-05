@@ -1,0 +1,96 @@
+body {
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+    position:fixed;
+    width: 90vw;
+    height: 900vh;
+    margin: 2em 2em auto;
+    background-color: #f5f1eb;
+}
+
+h1{
+  color: #0974b3;
+  margin: 0em 1em 0em 0em;
+  padding: 1em 0em 0em 0.5em;
+}
+
+.date {
+  margin: 0.4em;
+  display: block;
+  padding-left: 0.5em;
+
+}
+
+.container-full-width{
+  width: 57em;
+  height: 23em;
+  display: inline-block;
+
+  }
+
+.container-coloring{
+  background-color: white;
+  border-top: 0.3em solid #0974b3;
+  border-bottom: 0.05em solid #7d7d7d;
+  border-left: 0.05em solid #7d7d7d;
+  border-right: 0.05em solid #7d7d7d;
+
+  margin: 0em 0em 1em 0em;
+}
+.container-half-width{
+width: 43%;
+height: 25em;
+display: inline-block;
+margin: 0em 0.75em 0em 0.75em;
+padding: 0em 1em 0em 1em;
+
+
+}
+
+.textbox-big{
+  max-width: 2em;
+  height: auto;
+  text-align: left;
+  display: inline;
+}
+
+.textbox-small{
+  max-width: 2em;
+  text-align: left;
+  display: inline;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.image-formatting-full{
+  display: inline-block;
+  float: left;
+  position: static;
+  width: 19%;
+  height: auto;
+  padding: 0em 0.6em 0.6em 0.7em;
+
+}
+
+.image-formatting-half{
+  display: inline-block;
+  float: left;
+  position: static;
+  width: 35%;
+  height: auto;
+  padding: 0em 0.7em 0.7em 0em;
+}
+
+.clearfix{
+overflow: auto;
+}
+
+/*    Pilko teksto spalva  #666;  Bloko viršutinio border ir h1 spalva: #0974b3*/
+/* Fix float left issues */
+/* .clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+} */
